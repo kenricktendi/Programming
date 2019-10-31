@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head></head> 
+<title> My first Web Page </title> 
+
+<script>
+/*This program prints out "My name is Kenrick."*/ 
+/*This program prints out "I like to clean."*/ 
+function start(){ 
+	document.write(My name is Kenrick);}
+	document.write(I like clean) ;
+}
+start();
+</script>
+
+</html>
+
+
+	

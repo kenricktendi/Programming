@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head></head> 
+<title> Apples and Oranges </title> 
+
+<script>
+
+function start(){
+
+var name= "Oranges";
+var name= "Apples";
+document.write("apples and oranges"+);
+
+// Initializes numApples with a value 20
+var numApples = 20;
+var numOranges = 15;
+document.write("Number of apples:" + numApples); 
+document.write("Number of oranges:" + numOranges); 
+
+
+// Eat all apples
+numApples= 0
+document.write(Number of apples:" + numApples);  
+start();
+</script>
+
+</html>

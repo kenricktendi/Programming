@@ -1,0 +1,29 @@
+<html> 
+<head></head> 
+	<title></title> 
+	<canvas id="myCanvas" width="1000" height="1000" style="border:1px solid #000000;">
+		<script> 
+			/* write a function to draw a circle, given
+			* a y position, x position, and length
+			* for the center 
+			*/
+			
+			var canvas = document.getElementById('myCanvas');
+			var ctx = canvas.getContext('2d');
+		 
+		 function drawhorizontalLines(y, x, h) { 
+		 ctx.beginPath();
+		 ctx.rect(x, y, 1000, h);
+		 ctx.fillStyle = 'black';
+		 ctx.fill();
+		 ctx.stroke;
+}
+
+function start(){
+	drawhorizontalLines(40,50,5);
+	}
+	
+	start();
+	</script>
+	</html> 
+		

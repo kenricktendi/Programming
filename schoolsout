@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>CodeHS</title>
+    </head><head>
+	<script>
+//in this program we will ask if there is school or not 
+//value to represent the user
+//yes or no and then prints it out
+function start(){ 
+	var isAHoliday= readboolean("is it a holiday?");
+	var isAWeekday= readboolean("is it a weekday?");
+	document.write ("Have you met the requirements?:" + var isAHoliday);
+	
+}
+start();
+	</script>
+	</html>

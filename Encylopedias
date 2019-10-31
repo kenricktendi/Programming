@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Useful Resources</title>
+    </head>
+    
+    <body>
+        Put links to three encyclopedias here
+		
+		<a href="https://www.britannica.com">Encyclopedia Britannica</a>
+		<a href="https://www.wikipedia.org ">Wikipedia</a>
+		<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3133896/">PubMed Health Encyclopedia</a>
+
+    </body>
+</html>

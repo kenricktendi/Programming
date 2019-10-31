@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Stop Light</title>
+    </head><head>
+	<script>
+	//this program writes out the sequence of Fibonacci 
+	//Add two previous number to the current one 
+	function start(){
+	var a= 1
+	var b= 0 
+	var num= 13; 
+	var temp; 
+		while (num >=0){
+			temp= a;
+			a = a+b; 
+			b=temp;
+			num--;
+			document.write(b); 
+			document.write("<br>"); 
+		}
+		
+	}
+
+	
+
+
+	
+	start();
+	</script>
+	</html>

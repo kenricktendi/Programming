@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head></head> 
+<title> COST_OF_SHIRT </title> 
+
+<script>
+/*This program prints out "how many t-shirts they would like to buy."*/ 
+function start(){ 
+var name= "Shirts"function start(){ 
+var cost= $15;
+// Initializes amount of shirts with a value shirts 
+cost = prompt("how many shirts did you buy?");
+document.write("Number of shirts:" + shirts);
+shirts = prompt("how much did it cost?");
+document.write("Number of shirts:" + miles); 
+sum = shirts+cost;
+}
+start();
+</script>
+
+</html>

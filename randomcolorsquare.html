@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>color</title>
+    </head>
+	<canvas id="canvas" width="1000" height="1000" style="border:1px solid #000000;">
+	<script>
+	// Create gradient
+//This program writes 6 side dice 100 times 
+//prints out all of the numbers rolled
+function start(){
+const canvas = document.getElementById('canvas');
+const ctx = canvas.getContext('2d');
+
+ctx.beginPath()
+var color = 'rgb(' + Math.floor(Math.random()*255) + ', '+Math.floor(Math.random()*255)+' , '+ Math.floor(Math.random()*255)+')';
+ctx.fillStyle = color;
+ctx.fillRect(10, 10, 150, 100);
+ctx.fill();
+}
+		start();
+		</script>
+</html>

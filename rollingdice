@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>CodeHS</title>
+    </head><head>
+	<script>
+	// We use comparision operators to see if 
+	// a number matches the other 
+	function start(){ 
+		var x= int(prompt("What is your first number?"));
+		var y= int (prompt("What is your second number?"));
+		var rolledDoubles = x == y;
+		document.write ("Is it a double?:" + x); 
+	document.write ("is it a double?:" + y);
+}
+start();
+	</script>
+	</html>

@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>CodeHS</title>
+    </head><head>
+	<script>
+	//This program reads a number from the
+	//user and check if it matches the requirements
+	//prints out an answer 
+	function start(){
+		var number= 13; 
+		var number1= 17;   
+		if (number==number1){ 
+		document.write("number match.");
+
+		
+		}else{
+		document.write("does not match.");
+		}

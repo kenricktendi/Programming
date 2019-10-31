@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head></head> 
+<title> Grocery Store </title> 
+
+<script>
+/*This program prints out "Hi Zach, you want 3 apples and 2 oranges
+."*/ 
+function start(){ 
+	document.write(Hi Zach, you want 3 apples and 2 oranges
+);}
+
+}
+start();
+</script>
+
+</html>
+

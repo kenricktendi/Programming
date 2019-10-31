@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Stop Light</title>
+		
+    </head><head>
+	<script>
+	var STARTING_ITEMS_IN_INVENTORY = 20;
+	var numItems = STARTING_ITEMS_IN_INVENTORY;	
+	function start(){
+	
+		var input;	
+			
+		while(numItems >= 0){
+			input = prompt("We have: "+numItems+" enter a quantity "); 
+			numItems = numItems - input;
+			if (numItems==0){ 
+				document.write("There is no items left.");
+				break;
+			}
+		
+		}
+
+	}
+
+
+	
+	start();
+	</script>
+	</html>

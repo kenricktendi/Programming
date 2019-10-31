@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>caterpillar</title>
+    </head><head>
+	<canvas id="myCanvas" width="1000" height="1000" style="border:1px solid #000000;">
+	<script>
+	var NUM_CIRCLES = 15;
+	
+
+// This graphics program should draw a worm. 
+// A worm is made up of NUM_CIRCLES circles. 
+// Use a for loop to draw the worm, 
+// centered vertically in the screen. 
+// Also, be sure that the worm is still drawn across 
+// the whole canvas, even if the value of NUM_CIRCLES is changed.
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+
+function start(){
+	console.log("hi");
+	for (var i = 1; i < NUM_CIRCLES; i++){
+		console.log("hi1");
+		ctx.fillStyle = 'orange';
+		ctx.beginPath();
+		ctx.arc(95+(i*10), 50, 40, 0, 2 * Math.PI);
+		
+		ctx.fill();
+		ctx.stroke();	
+		
+	}
+}
+start();
+</script>
+</html>
