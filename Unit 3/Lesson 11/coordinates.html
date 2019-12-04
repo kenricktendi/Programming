@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Teleporting Ball</title>
+<title>Coordinates</title>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
@@ -25,7 +25,7 @@ pre {
 </head>
 
 <body>
-<h1>Teleporting Ball</h1>
+<h1>Coordinates</h1>
 
 
 
@@ -36,29 +36,34 @@ class="codehs-editor-canvas"></canvas>
 
 <script>
 window.onload = function() {
+    /* This program displays the x and y
+ * coordinates in a label on the screen
+ * and updates when the mouse moves */
+function start(){
 var ball;
 var dx = 4;
 var dy = 4;
 
 
-//This program will place dot on where the cursor is clicked 
-function start(){
-	mouseClickMethod(drawCircle);
-}
+function start)(){
 
-function drawCircle(e){
-	ball = new Circle(20);
-	var x = Randomizer.nextInt(50, 300);
-    var y = Randomizer.nextInt(58, 300);
-	ball.setPosition(x, y);
-	add(ball);
-}
-
-if(typeof start ==='function') {
-	start();
+	mouseMoveMethod(paint);
 	}
+	
+	function paint(e){ 
+	ball = new Circle(15);
+	ball.setPosition(e.getX(), e.getY());
+	add(ball);
+	}
+	
+	
+	
+	
+}
+    if (typeof start === 'function') {
+        start();
+    }
 };
-
 </script>
 
 </body>
