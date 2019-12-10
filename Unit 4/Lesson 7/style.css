@@ -1,0 +1,20 @@
+
+
+
+li:hover::after {
+	background-color:lightblue;
+	content: "Who's the one!"
+}
+
+#seong:active::after {
+	background-color:green;
+content: "Thanks!"
+}
+#andile:active::after {
+	background-color:green;
+content: "Thanks I knew it!"
+}
+#shakti:active::after {
+	background-color:green;
+content: "What thankks!"
+}

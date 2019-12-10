@@ -1,0 +1,20 @@
+#octopus-cap{
+display:none;
+}
+
+#whale-cap{
+	display:none;
+}
+
+
+#shark-cap{
+	display:none;
+}
+.sharkimage:hover::active{
+	background-color:lightblue; 
+	content: "Sharks are known for being apex predators, but some
+		        sharks only eat small fish. Sharks teeth never stop
+		        growing, with old ones constantly falling out and 
+		        being replaced by new teeth."
+}
+
