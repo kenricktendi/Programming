@@ -1,0 +1,11 @@
+td{ 
+
+border: 2px dashed red; 
+} 
+
+th{
+	border-color: blue; 
+	border-style: dashed;
+	border-width: 2px;
+}
+	
