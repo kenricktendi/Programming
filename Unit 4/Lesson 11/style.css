@@ -1,0 +1,7 @@
+.row{
+	display:flex;
+}
+.col-3{
+	height:10px;
+	width:10px;
+}
