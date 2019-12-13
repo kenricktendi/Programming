@@ -1,0 +1,9 @@
+@keyframes invert-filter-animation{
+		from {filter: invert(0%)}
+		
+		to {filter:invert(100%)}
+		
+}
+img.filtered-image{
+animation: invert-filter-animation 2s forwards;
+}
