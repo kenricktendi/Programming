@@ -1,18 +1,15 @@
 
-.unclickable:hover{
+.unclickable{
 	background-color: gray;
+	cursor: not-allowed;
 }
-
-.unclickable:active{
-	background-color: gray;
-}
-
+	
 
 .clickable:hover{ 
 filter: brightness(120%);
 }
 
 .clickable:active{ 
-filter: brightness(20%);
+filter: brightness(70%);
 }
 
