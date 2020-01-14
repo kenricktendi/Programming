@@ -26,7 +26,7 @@ pre {
 </head>
 
 <body>
-<h1>Sidekicks</h1>
+<h1>Address Book</h1>
 
 
 
@@ -40,18 +40,22 @@ class="codehs-editor-canvas"></canvas>
 window.onload = function() {
 
     function start(){
-	var sidekick = {};
+	var address= {};
 	
 	// put in some numbers
-	sidekick["Batman"] = "Robin";
-	sidekick["MermaidMan"] = "Barnacle Boy";
-	
+	address.Nemo = "P Sherman, 42 Wallaby Way, Sydney";
+	address.Luna = "20 Ottery Street, Devon, England";
+	address.Fred = "301 Cobblestone Way, Bedrock, CA";
+	 
 	// get a number out
-	var batmanSidekick = sidekick["Batman"];
-	println(batmanSidekick);
+	println(address.Nemo);
+	address['Nemo'] = "124 Conch Street, Bikini Bottom, Pacific Ocean";
+	println(address.Nemo)
+	println(address.Luna);
+	println(address.Fred);
 	
-	var mermaidmanSidekick = sidekick["MermaidMan"];
-	println(mermaidmanSidekick);
+	
+	
 	/*
 	map[key] = value;
 	*/
