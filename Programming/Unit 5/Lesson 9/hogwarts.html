@@ -1,3 +1,5 @@
+
+<!DOCTYPE html>
 <html>
 	<head></head>
 	 <script>
@@ -9,13 +11,14 @@
 // Iterates through the Object studentHouse and prints
 // out the name of every student in the given house
 function printStudentsInHouse(studentHouse, house){
-    // Your code here!
-	
-	for(var house in studentHouse){ 
+    
+	console.log('function');
+	for(house in studentHouse){ 
 	var student = studentHouse[house]; 
-	println(house + " -> " + student);
+	document.write(house + " -> " + student+'<br>');
 }
 
+}
 function buildStudentHouseObject(){
     var studentHouse = {
         "Harry Potter": "Gryffindor",
