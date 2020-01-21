@@ -1,5 +1,6 @@
 <html>
 	<head></head>
+	<body>
 	 <script>
  function start(){
     var studentHouse = buildStudentHouseObject();
@@ -10,10 +11,10 @@
 // out the name of every student in the given house
 function printStudentsInHouse(studentHouse, house){
     // Your code here!
-	
+	console.log('functon');
 	for(var house in studentHouse){ 
 	var student = studentHouse[house]; 
-	println(house + " -> " + student);
+	println(house + " -> " + student+'<br>');
 }
 
 function buildStudentHouseObject(){
@@ -36,4 +37,5 @@ function buildStudentHouseObject(){
 
 start();
 </script>
+</body>
 </html>
